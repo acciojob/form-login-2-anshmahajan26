@@ -5,9 +5,11 @@ let phone= document.getElementById("phoneNumber");
 let email = document.getElementById("emailID");
 let bnt = document.getElementById("submit");
 	bnt.addEventListener("click", function(){
-		 "First Name: " + first.value + " " +
+		alert(
+    "First Name: " + first.value + " " +
     "Last Name: " + last.value + " " +
     "Phone Number: " + phone.value + " " +
     "Email ID: " + email.value
+  );
 		
 	})
